@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Windows Azure Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadMessages()">
+    <div class="chat-container">
+        <div class="chat-header">Windows Azure Chat. Zvieriev Kostiantyn</div>
+        <div class="chat-input">
+            <label>Your name: <input type="text" id="author" placeholder="Your name"></label>
+            <br>
+            <input type="text" id="message" placeholder="Type your message here...">
+            <input type="submit" value="Submit" onclick="sendMessage()">
+        </div>
+        <div class="chat-messages" id="chatMessages"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

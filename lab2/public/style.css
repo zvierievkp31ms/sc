@@ -1,0 +1,35 @@
+#blobImage {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+form {
+    width: 300px;
+    /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    /* Center-align content */
+}
+
+th {
+    background-color: #f2f2f2;
+}
